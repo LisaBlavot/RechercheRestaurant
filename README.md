@@ -2,6 +2,12 @@
 
 Projet M1 – Algorithmique géométrique (Python + VTK).
 
+L'application affiche une carte de restaurants. L'utilisateur clique sur une
+position : l'application trouve le restaurant le plus proche grâce au
+**diagramme de Voronoï** (chaque restaurant possède la zone des points dont il
+est le plus proche), puis propose ses voisins comme alternatives grâce à la
+**triangulation de Delaunay** (qui relie les restaurants voisins).
+
 ## Installation
 
 Utiliser le Python de Windows (python.org), pas celui de MSYS2 :
